@@ -1,0 +1,2 @@
+a = berarti usia kalian sekarang adalah 21 tahun
+ print(a)
