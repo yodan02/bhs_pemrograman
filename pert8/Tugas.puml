@@ -1,0 +1,42 @@
+@startuml titit
+title Diagram untuk Aplikasi Layanan Servis Motor
+
+start
+:Inisialisasi layanan servis;
+:Inisialisasi layanan saya;
+
+while (choice != 3) is (Tampilkan menu)
+    :Tampilkan menu utama;
+    :Dapatkan input dari pengguna (choice);
+    
+    if (choice == 1) then (Tampilkan layanan)
+        :Tampilkan menu layanan;
+        :Dapatkan input dari pengguna (serviceChoice);
+        
+        if (serviceChoice == 1) then (Ganti Oli)
+            :Tambah Ganti Oli ke Layanan Saya;
+        else if (serviceChoice == 2) then (Servis CVT)
+            :Tambah Servis CVT ke Layanan Saya;
+        else if (serviceChoice == 3) then (Servis Bulanan)
+            :Tambah Servis Bulanan ke Layanan Saya;
+        else if (serviceChoice == 4) then (Kembali)
+            :Kembali ke Menu Utama;
+        else
+            :Pilihan tidak valid;
+        endif
+        
+    else if (choice == 2) then (Tampilkan layanan saya)
+        :Tampilkan layanan saya;
+        
+    else if (choice == 3) then (Keluar)
+        :Tampilkan pesan keluar;
+        
+    else
+        :Pilihan tidak valid;
+    endif
+endwhile
+
+:Keluar dari aplikasi;
+stop
+
+@enduml
