@@ -6834,6 +6834,7 @@ return array(
     'Spatie\\LaravelIgnition\\Support\\LaravelVersion' => $vendorDir . '/spatie/laravel-ignition/src/Support/LaravelVersion.php',
     'Spatie\\LaravelIgnition\\Support\\RunnableSolutionsGuard' => $vendorDir . '/spatie/laravel-ignition/src/Support/RunnableSolutionsGuard.php',
     'Spatie\\LaravelIgnition\\Support\\SentReports' => $vendorDir . '/spatie/laravel-ignition/src/Support/SentReports.php',
+    'Spatie\\LaravelIgnition\\Support\\StringComparator' => $vendorDir . '/spatie/error-solutions/legacy/laravel-ignition/Support/StringComparator.php',
     'Spatie\\LaravelIgnition\\Views\\BladeSourceMapCompiler' => $vendorDir . '/spatie/laravel-ignition/src/Views/BladeSourceMapCompiler.php',
     'Spatie\\LaravelIgnition\\Views\\ViewExceptionMapper' => $vendorDir . '/spatie/laravel-ignition/src/Views/ViewExceptionMapper.php',
     'Spatie\\LaravelPackageTools\\Commands\\InstallCommand' => $vendorDir . '/spatie/laravel-package-tools/src/Commands/InstallCommand.php',
